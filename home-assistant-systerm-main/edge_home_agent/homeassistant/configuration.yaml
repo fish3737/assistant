@@ -1,0 +1,56 @@
+default_config:
+
+mqtt:
+  - sensor:
+      - name: "Home Temperature"
+        unique_id: "home_temperature_sensor"
+        state_topic: "home/sensors/temperature"
+        value_template: "{{ value_json.value }}"
+        unit_of_measurement: "C"
+      - name: "Home Illuminance"
+        unique_id: "home_illuminance_sensor"
+        state_topic: "home/sensors/light"
+        value_template: "{{ value_json.value }}"
+        unit_of_measurement: "lux"
+
+    binary_sensor:
+      - name: "Door Contact"
+        unique_id: "home_door_contact"
+        state_topic: "home/sensors/door"
+        value_template: "{{ 'ON' if value_json.value else 'OFF' }}"
+        payload_on: "ON"
+        payload_off: "OFF"
+        device_class: door
+      - name: "Motion PIR"
+        unique_id: "home_motion_pir"
+        state_topic: "home/sensors/pir"
+        value_template: "{{ 'ON' if value_json.value else 'OFF' }}"
+        payload_on: "ON"
+        payload_off: "OFF"
+        device_class: motion
+
+    switch:
+      - name: "Demo Light"
+        unique_id: "home_demo_light_switch"
+        command_topic: "home/commands/light"
+        payload_on: '{"command":"on","reason":"ha-ui"}'
+        payload_off: '{"command":"off","reason":"ha-ui"}'
+        state_topic: "home/devices/light/state"
+        state_on: "on"
+        state_off: "off"
+      - name: "Demo AC"
+        unique_id: "home_demo_ac_switch"
+        command_topic: "home/commands/ac"
+        payload_on: '{"command":"on","reason":"ha-ui"}'
+        payload_off: '{"command":"off","reason":"ha-ui"}'
+        state_topic: "home/devices/ac/state"
+        state_on: "on"
+        state_off: "off"
+      - name: "Demo Alarm"
+        unique_id: "home_demo_alarm_switch"
+        command_topic: "home/commands/alarm"
+        payload_on: '{"command":"on","reason":"ha-ui"}'
+        payload_off: '{"command":"off","reason":"ha-ui"}'
+        state_topic: "home/devices/alarm/state"
+        state_on: "on"
+        state_off: "off"

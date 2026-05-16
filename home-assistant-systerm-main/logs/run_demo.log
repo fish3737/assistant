@@ -1,0 +1,18 @@
+[run_demo] started device pid=86589
+[run_demo] started agent pid=86590
+[run_demo] started sensor pid=86591
+[run_demo] Press Ctrl+C to stop all modules.
+2026-05-09 10:37:49,277 | INFO | device | Device executor started (offline_rate=0.00).
+2026-05-09 10:37:49,277 | INFO | agent  | Edge agent started (cmd_drop=0.00, cmd_delay_ms=0).
+2026-05-09 10:37:49,278 | INFO | sensor | Sensor simulator started (interval=1.5s, drop=0.00, delay_ms=0).
+2026-05-09 10:37:49,278 | INFO | agent  | Connected to MQTT broker.
+2026-05-09 10:37:49,278 | INFO | device | Connected to MQTT broker.
+2026-05-09 10:37:49,278 | INFO | sensor | Published sensor=temperature value=24.34
+2026-05-09 10:37:49,279 | INFO | sensor | Published sensor=humidity value=48.2
+2026-05-09 10:37:49,279 | INFO | sensor | Published sensor=door value=False
+2026-05-09 10:37:49,279 | INFO | sensor | Published sensor=pir value=True
+2026-05-09 10:37:49,279 | INFO | sensor | Published sensor=light value=14.6
+2026-05-09 10:37:49,279 | INFO | sensor | Connected to MQTT broker.
+2026-05-09 10:37:49,279 | INFO | agent  | Device state sync: alarm=off
+2026-05-09 10:37:49,279 | INFO | agent  | Sensor update: temperature=24.34
+2026-05-09 10:37:49,279 | INFO | agent  | Sensor update: humidity=48.2

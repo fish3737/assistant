@@ -1,0 +1,20 @@
+services:
+  mqtt-broker:
+    image: eclipse-mosquitto:2
+    container_name: edge-home-mqtt
+    ports:
+      - "1883:1883"
+    volumes:
+      - ./mosquitto/config:/mosquitto/config:ro
+
+  home-assistant:
+    image: ghcr.io/home-assistant/home-assistant:stable
+    container_name: edge-home-ha
+    depends_on:
+      - mqtt-broker
+    ports:
+      - "8123:8123"
+    volumes:
+      - ./homeassistant:/config
+      - /etc/localtime:/etc/localtime:ro
+    restart: unless-stopped
