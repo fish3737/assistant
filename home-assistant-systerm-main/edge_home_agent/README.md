@@ -22,7 +22,7 @@ edge_home_agent/
     └── run_demo.py
 ```
 
-## 一、启动 MQTT + Home Assistant
+## 一、启动 MQTT与Home Assistant
 
 ### Docker
 
