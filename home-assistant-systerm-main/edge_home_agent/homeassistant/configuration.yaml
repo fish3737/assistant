@@ -28,6 +28,7 @@ mqtt:
         payload_on: "ON"
         payload_off: "OFF"
         device_class: motion
+        ##
 
     switch:
       - name: "Demo Light"
