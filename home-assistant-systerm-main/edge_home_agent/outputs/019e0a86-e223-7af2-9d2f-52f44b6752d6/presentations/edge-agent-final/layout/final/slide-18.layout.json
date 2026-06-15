@@ -1,0 +1,949 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/b8rv0x",
+    "id": "b8rv0x",
+    "slide": 18,
+    "layoutId": "b2118fd3-6616-4c19-a8d6-65f41dd74c2c",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "d00ab328-c902-4cd2-8f05-e1e02eb03262",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Hiragino Sans GB"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "b2118fd3-6616-4c19-a8d6-65f41dd74c2c",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "d00ab328-c902-4cd2-8f05-e1e02eb03262",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "d00ab328-c902-4cd2-8f05-e1e02eb03262",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/lwval87e",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1600,
+        900
+      ],
+      "alt": "paper texture",
+      "contentType": "image/png",
+      "imageFit": "cover",
+      "asset": {
+        "assetId": "0031eb46-2b78-47c5-89e1-feaad5314828",
+        "contentType": "image/png",
+        "byteLength": 2435829
+      }
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vahoza1g",
+      "id": "2",
+      "bbox": [
+        0,
+        0,
+        1600,
+        900
+      ],
+      "geometry": "rect",
+      "fillColor": "rgba(238, 242, 244, 0.86667)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6tovahoz",
+      "id": "3",
+      "bbox": [
+        0,
+        0,
+        1600,
+        92
+      ],
+      "geometry": "rect",
+      "fillColor": "#132033",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d8v6psfi",
+      "id": "4",
+      "bbox": [
+        0,
+        92,
+        1600,
+        5
+      ],
+      "geometry": "rect",
+      "fillColor": "#37A8B9",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/onyd0z61",
+      "id": "5",
+      "bbox": [
+        58,
+        24,
+        500,
+        38
+      ],
+      "geometry": "rect",
+      "text": "期末汇报",
+      "textPreview": "期末汇报",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 20,
+        "typeface": "Hiragino Sans GB",
+        "color": "#AEBBD0",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "期末汇报"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "期末汇报",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Hiragino Sans GB",
+            "color": "#AEBBD0",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "期末汇报",
+              "fontSize": 20,
+              "typeface": "Hiragino Sans GB",
+              "color": "#AEBBD0"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/z25kb6xk",
+      "id": "6",
+      "bbox": [
+        1480,
+        25,
+        70,
+        36
+      ],
+      "geometry": "rect",
+      "text": "18",
+      "textPreview": "18",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 21,
+        "typeface": "Hiragino Sans GB",
+        "color": "#AEBBD0",
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "18"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "18",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Hiragino Sans GB",
+            "color": "#AEBBD0",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "18",
+              "fontSize": 21,
+              "typeface": "Hiragino Sans GB",
+              "color": "#AEBBD0"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6hcrmhk3",
+      "id": "7",
+      "bbox": [
+        58,
+        120,
+        1020,
+        58
+      ],
+      "geometry": "rect",
+      "text": "后续工作：把工程成果整理成论文式表达",
+      "textPreview": "后续工作：把工程成果整理成论文式表达",
+      "resolvedFontSize": 36,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 36,
+        "typeface": "Hiragino Sans GB",
+        "color": "#162238",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "后续工作：把工程成果整理成论文式表达"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "后续工作：把工程成果整理成论文式表达",
+          "resolvedTextStyle": {
+            "fontSize": 36,
+            "typeface": "Hiragino Sans GB",
+            "color": "#162238",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "后续工作：把工程成果整理成论文式表达",
+              "fontSize": 36,
+              "typeface": "Hiragino Sans GB",
+              "color": "#162238",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d4vmtwra",
+      "id": "8",
+      "bbox": [
+        60,
+        178,
+        1120,
+        36
+      ],
+      "geometry": "rect",
+      "text": "下一步重点是补足解释、录像演示和材料打包",
+      "textPreview": "下一步重点是补足解释、录像演示和材料打包",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 21,
+        "typeface": "Hiragino Sans GB",
+        "color": "#637089",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "下一步重点是补足解释、录像演示和材料打包"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "下一步重点是补足解释、录像演示和材料打包",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Hiragino Sans GB",
+            "color": "#637089",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "下一步重点是补足解释、录像演示和材料打包",
+              "fontSize": 21,
+              "typeface": "Hiragino Sans GB",
+              "color": "#637089"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/oj2t83it",
+      "id": "9",
+      "bbox": [
+        110,
+        258,
+        9,
+        9
+      ],
+      "geometry": "rect",
+      "fillColor": "#37A8B9",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2x4nap4r",
+      "id": "10",
+      "bbox": [
+        134,
+        250,
+        1276,
+        34
+      ],
+      "geometry": "rect",
+      "text": "PPT：用本 deck 作为主线，录屏时按“问题—机制—实验—结论”讲。",
+      "textPreview": "PPT：用本 deck 作为主线，录屏时按“问题—机制—实验—结论”讲。",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 25,
+        "typeface": "Hiragino Sans GB",
+        "color": "#162238",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "PPT：用本 deck 作为主线，录屏时按“问题—机制—实验—结论”讲。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "PPT：用本 deck 作为主线，录屏时按“问题—机制—实验—结论”讲。",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Hiragino Sans GB",
+            "color": "#162238",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "PPT：用本 deck 作为主线，录屏时按“问题—机制—实验—结论”讲。",
+              "fontSize": 25,
+              "typeface": "Hiragino Sans GB",
+              "color": "#162238"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vixczed8",
+      "id": "11",
+      "bbox": [
+        110,
+        320,
+        9,
+        9
+      ],
+      "geometry": "rect",
+      "fillColor": "#72B86B",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/k3q5o7qp",
+      "id": "12",
+      "bbox": [
+        134,
+        312,
+        1276,
+        34
+      ],
+      "geometry": "rect",
+      "text": "视频：演示 Home Assistant 页面、真实 MQTT 验证脚本、实验结果目录。",
+      "textPreview": "视频：演示 Home Assistant 页面、真实 MQTT 验证脚本、实验结果目录。",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 25,
+        "typeface": "Hiragino Sans GB",
+        "color": "#162238",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "视频：演示 Home Assistant 页面、真实 MQTT 验证脚本、实验结果目录。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "视频：演示 Home Assistant 页面、真实 MQTT 验证脚本、实验结果目录。",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Hiragino Sans GB",
+            "color": "#162238",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "视频：演示 Home Assistant 页面、真实 MQTT 验证脚本、实验结果目录。",
+              "fontSize": 25,
+              "typeface": "Hiragino Sans GB",
+              "color": "#162238"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/donyd0z6",
+      "id": "13",
+      "bbox": [
+        110,
+        382,
+        9,
+        9
+      ],
+      "geometry": "rect",
+      "fillColor": "#EF9B3A",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6psfil0r",
+      "id": "14",
+      "bbox": [
+        134,
+        374,
+        1276,
+        34
+      ],
+      "geometry": "rect",
+      "text": "论文/报告：重点写清楚评价指标、实验参数和消融结论。",
+      "textPreview": "论文/报告：重点写清楚评价指标、实验参数和消融结论。",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 25,
+        "typeface": "Hiragino Sans GB",
+        "color": "#162238",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "论文/报告：重点写清楚评价指标、实验参数和消融结论。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "论文/报告：重点写清楚评价指标、实验参数和消融结论。",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Hiragino Sans GB",
+            "color": "#162238",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "论文/报告：重点写清楚评价指标、实验参数和消融结论。",
+              "fontSize": 25,
+              "typeface": "Hiragino Sans GB",
+              "color": "#162238"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/val87ed8",
+      "id": "15",
+      "bbox": [
+        110,
+        444,
+        9,
+        9
+      ],
+      "geometry": "rect",
+      "fillColor": "#7669D8",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kre1w7mp",
+      "id": "16",
+      "bbox": [
+        134,
+        436,
+        1276,
+        34
+      ],
+      "geometry": "rect",
+      "text": "材料包：PPTX、MP4、代码、experiments/final_results、mqtt_validation 一起提交。",
+      "textPreview": "材料包：PPTX、MP4、代码、experiments/final_results、mqtt_validation 一起提交。",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 25,
+        "typeface": "Hiragino Sans GB",
+        "color": "#162238",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "材料包：PPTX、MP4、代码、experiments/final_results、mqtt_validation 一起提交。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "材料包：PPTX、MP4、代码、experiments/final_results、mqtt_validation 一起提交。",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Hiragino Sans GB",
+            "color": "#162238",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "材料包：PPTX、MP4、代码、experiments/final_results、mqtt_validation 一起提交。",
+              "fontSize": 25,
+              "typeface": "Hiragino Sans GB",
+              "color": "#162238"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dcbulwva",
+      "id": "17",
+      "bbox": [
+        130,
+        570,
+        1340,
+        160
+      ],
+      "geometry": "rect",
+      "fillColor": "#0F1A2B",
+      "lineColor": "#33445F",
+      "lineWidth": 1
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2lszqtcj",
+      "id": "18",
+      "bbox": [
+        165,
+        600,
+        260,
+        34
+      ],
+      "geometry": "rect",
+      "text": "最终汇报主张",
+      "textPreview": "最终汇报主张",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Hiragino Sans GB",
+        "color": "#8DE5FF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "最终汇报主张"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "最终汇报主张",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Hiragino Sans GB",
+            "color": "#8DE5FF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "最终汇报主张",
+              "fontSize": 24,
+              "typeface": "Hiragino Sans GB",
+              "color": "#8DE5FF",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/v6psfil0",
+      "id": "19",
+      "bbox": [
+        165,
+        648,
+        1220,
+        70
+      ],
+      "geometry": "rect",
+      "text": "本项目不是简单智能家居自动化，而是在边缘弱网络环境下，通过优先级、状态可信度和执行确认机制提高关键任务稳定性的自治 Agent 原型。",
+      "textPreview": "本项目不是简单智能家居自动化，而是在边缘弱网络环境下，通过优先级、状态可信度和执行确认机制提高关键任务稳定性的自治 Agent 原型。",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Hiragino Sans GB",
+        "color": "#EEF4FF",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "本项目不是简单智能家居自动化，而是在边缘弱网络环境下，通过优先级、状态可信度和执行确认机制提高关键任"
+          },
+          {
+            "index": 2,
+            "text": "务稳定性的自治 Agent 原型。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "本项目不是简单智能家居自动化，而是在边缘弱网络环境下，通过优先级、状态可信度和执行确认机制提高关键任务稳定性的自治 Agent 原型。",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Hiragino Sans GB",
+            "color": "#EEF4FF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "本项目不是简单智能家居自动化，而是在边缘弱网络环境下，通过优先级、状态可信度和执行确认机制提高关键任务稳定性的自治 Agent 原型。",
+              "fontSize": 24,
+              "typeface": "Hiragino Sans GB",
+              "color": "#EEF4FF"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nuxc3ylc",
+      "id": "20",
+      "bbox": [
+        1320,
+        790,
+        180,
+        44
+      ],
+      "geometry": "rect",
+      "text": "谢谢",
+      "textPreview": "谢谢",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 34,
+        "typeface": "Hiragino Sans GB",
+        "color": "#162238",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "谢谢"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "谢谢",
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "typeface": "Hiragino Sans GB",
+            "color": "#162238",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "谢谢",
+              "fontSize": 34,
+              "typeface": "Hiragino Sans GB",
+              "color": "#162238",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

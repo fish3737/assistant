@@ -1,0 +1,1743 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/7sg5bg",
+    "id": "7sg5bg",
+    "slide": 17,
+    "layoutId": "b2118fd3-6616-4c19-a8d6-65f41dd74c2c",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "d00ab328-c902-4cd2-8f05-e1e02eb03262",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Hiragino Sans GB"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "b2118fd3-6616-4c19-a8d6-65f41dd74c2c",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "d00ab328-c902-4cd2-8f05-e1e02eb03262",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "d00ab328-c902-4cd2-8f05-e1e02eb03262",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/kzupwb2h",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1600,
+        900
+      ],
+      "alt": "paper texture",
+      "contentType": "image/png",
+      "imageFit": "cover",
+      "asset": {
+        "assetId": "8902e54f-290d-4634-aa6d-bdb9de4d5b66",
+        "contentType": "image/png",
+        "byteLength": 2435829
+      }
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/eloj2t83",
+      "id": "2",
+      "bbox": [
+        0,
+        0,
+        1600,
+        900
+      ],
+      "geometry": "rect",
+      "fillColor": "rgba(238, 242, 244, 0.86667)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/36hcrmhk",
+      "id": "3",
+      "bbox": [
+        0,
+        0,
+        1600,
+        92
+      ],
+      "geometry": "rect",
+      "fillColor": "#132033",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wfyxobm5",
+      "id": "4",
+      "bbox": [
+        0,
+        92,
+        1600,
+        5
+      ],
+      "geometry": "rect",
+      "fillColor": "#37A8B9",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/l0rqd4vm",
+      "id": "5",
+      "bbox": [
+        58,
+        24,
+        500,
+        38
+      ],
+      "geometry": "rect",
+      "text": "期末汇报",
+      "textPreview": "期末汇报",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 20,
+        "typeface": "Hiragino Sans GB",
+        "color": "#AEBBD0",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "期末汇报"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "期末汇报",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Hiragino Sans GB",
+            "color": "#AEBBD0",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "期末汇报",
+              "fontSize": 20,
+              "typeface": "Hiragino Sans GB",
+              "color": "#AEBBD0"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ed8bat47",
+      "id": "6",
+      "bbox": [
+        1480,
+        25,
+        70,
+        36
+      ],
+      "geometry": "rect",
+      "text": "17",
+      "textPreview": "17",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 21,
+        "typeface": "Hiragino Sans GB",
+        "color": "#AEBBD0",
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "17"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "17",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Hiragino Sans GB",
+            "color": "#AEBBD0",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "17",
+              "fontSize": 21,
+              "typeface": "Hiragino Sans GB",
+              "color": "#AEBBD0"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7u54zido",
+      "id": "7",
+      "bbox": [
+        58,
+        120,
+        1020,
+        58
+      ],
+      "geometry": "rect",
+      "text": "阶段性成果：从可演示系统到可评估系统",
+      "textPreview": "阶段性成果：从可演示系统到可评估系统",
+      "resolvedFontSize": 36,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 36,
+        "typeface": "Hiragino Sans GB",
+        "color": "#162238",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "阶段性成果：从可演示系统到可评估系统"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "阶段性成果：从可演示系统到可评估系统",
+          "resolvedTextStyle": {
+            "fontSize": 36,
+            "typeface": "Hiragino Sans GB",
+            "color": "#162238",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "阶段性成果：从可演示系统到可评估系统",
+              "fontSize": 36,
+              "typeface": "Hiragino Sans GB",
+              "color": "#162238",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w7mp0bi9",
+      "id": "8",
+      "bbox": [
+        60,
+        178,
+        1120,
+        36
+      ],
+      "geometry": "rect",
+      "text": "期末成果可以围绕三条贡献线展开",
+      "textPreview": "期末成果可以围绕三条贡献线展开",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 21,
+        "typeface": "Hiragino Sans GB",
+        "color": "#637089",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "期末成果可以围绕三条贡献线展开"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "期末成果可以围绕三条贡献线展开",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Hiragino Sans GB",
+            "color": "#637089",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "期末成果可以围绕三条贡献线展开",
+              "fontSize": 21,
+              "typeface": "Hiragino Sans GB",
+              "color": "#637089"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/psfil0rq",
+      "id": "9",
+      "bbox": [
+        130,
+        260,
+        1340,
+        192
+      ],
+      "geometry": "rect",
+      "fillColor": "#F8FAF8",
+      "lineColor": "#CFD9E5",
+      "lineWidth": 1
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tsvu9kni",
+      "id": "10",
+      "bbox": [
+        142,
+        274,
+        216,
+        22
+      ],
+      "geometry": "rect",
+      "text": "贡献",
+      "textPreview": "贡献",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "Hiragino Sans GB",
+        "color": "#637089",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "贡献"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "贡献",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Hiragino Sans GB",
+            "color": "#637089",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "贡献",
+              "fontSize": 15,
+              "typeface": "Hiragino Sans GB",
+              "color": "#637089",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/47y1kre1",
+      "id": "11",
+      "bbox": [
+        382,
+        274,
+        1076,
+        22
+      ],
+      "geometry": "rect",
+      "text": "内容",
+      "textPreview": "内容",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "Hiragino Sans GB",
+        "color": "#637089",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "内容"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "内容",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Hiragino Sans GB",
+            "color": "#637089",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "内容",
+              "fontSize": 15,
+              "typeface": "Hiragino Sans GB",
+              "color": "#637089",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bm58z25k",
+      "id": "12",
+      "bbox": [
+        130,
+        308,
+        1340,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#DDE5EE",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m1cfa9w3",
+      "id": "13",
+      "bbox": [
+        142,
+        322,
+        216,
+        22
+      ],
+      "geometry": "rect",
+      "text": "系统实现",
+      "textPreview": "系统实现",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Hiragino Sans GB",
+        "color": "#162238",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "系统实现"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "系统实现",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Hiragino Sans GB",
+            "color": "#162238",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "系统实现",
+              "fontSize": 16,
+              "typeface": "Hiragino Sans GB",
+              "color": "#162238"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tgfmlkjm",
+      "id": "14",
+      "bbox": [
+        382,
+        322,
+        1076,
+        22
+      ],
+      "geometry": "rect",
+      "text": "完成传感器、MQTT、Agent、设备执行、Home Assistant 的本地闭环。",
+      "textPreview": "完成传感器、MQTT、Agent、设备执行、Home Assistant 的本地闭环。",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Hiragino Sans GB",
+        "color": "#162238",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "完成传感器、MQTT、Agent、设备执行、Home Assistant 的本地闭环。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "完成传感器、MQTT、Agent、设备执行、Home Assistant 的本地闭环。",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Hiragino Sans GB",
+            "color": "#162238",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "完成传感器、MQTT、Agent、设备执行、Home Assistant 的本地闭环。",
+              "fontSize": 16,
+              "typeface": "Hiragino Sans GB",
+              "color": "#162238"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4vmtwra5",
+      "id": "15",
+      "bbox": [
+        130,
+        356,
+        1340,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#DDE5EE",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bat47y1k",
+      "id": "16",
+      "bbox": [
+        142,
+        370,
+        216,
+        22
+      ],
+      "geometry": "rect",
+      "text": "机制设计",
+      "textPreview": "机制设计",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Hiragino Sans GB",
+        "color": "#162238",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "机制设计"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "机制设计",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Hiragino Sans GB",
+            "color": "#162238",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "机制设计",
+              "fontSize": 16,
+              "typeface": "Hiragino Sans GB",
+              "color": "#162238"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mp0bi9s3",
+      "id": "17",
+      "bbox": [
+        382,
+        370,
+        1076,
+        22
+      ],
+      "geometry": "rect",
+      "text": "加入优先级调度、状态过期判断、ACK 确认与超时重试。",
+      "textPreview": "加入优先级调度、状态过期判断、ACK 确认与超时重试。",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Hiragino Sans GB",
+        "color": "#162238",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "加入优先级调度、状态过期判断、ACK 确认与超时重试。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "加入优先级调度、状态过期判断、ACK 确认与超时重试。",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Hiragino Sans GB",
+            "color": "#162238",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "加入优先级调度、状态过期判断、ACK 确认与超时重试。",
+              "fontSize": 16,
+              "typeface": "Hiragino Sans GB",
+              "color": "#162238"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/t83itgfm",
+      "id": "18",
+      "bbox": [
+        130,
+        404,
+        1340,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#DDE5EE",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4nap4r65",
+      "id": "19",
+      "bbox": [
+        142,
+        418,
+        216,
+        22
+      ],
+      "geometry": "rect",
+      "text": "实验评估",
+      "textPreview": "实验评估",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Hiragino Sans GB",
+        "color": "#162238",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "实验评估"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "实验评估",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Hiragino Sans GB",
+            "color": "#162238",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "实验评估",
+              "fontSize": 16,
+              "typeface": "Hiragino Sans GB",
+              "color": "#162238"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0rqd4vmt",
+      "id": "20",
+      "bbox": [
+        382,
+        418,
+        1076,
+        22
+      ],
+      "geometry": "rect",
+      "text": "完成延迟、丢包、设备离线、策略对比、消融和真实 MQTT 验证。",
+      "textPreview": "完成延迟、丢包、设备离线、策略对比、消融和真实 MQTT 验证。",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Hiragino Sans GB",
+        "color": "#162238",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "完成延迟、丢包、设备离线、策略对比、消融和真实 MQTT 验证。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "完成延迟、丢包、设备离线、策略对比、消融和真实 MQTT 验证。",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Hiragino Sans GB",
+            "color": "#162238",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "完成延迟、丢包、设备离线、策略对比、消融和真实 MQTT 验证。",
+              "fontSize": 16,
+              "typeface": "Hiragino Sans GB",
+              "color": "#162238"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tcj6tova",
+      "id": "21",
+      "bbox": [
+        180,
+        575,
+        300,
+        128
+      ],
+      "geometry": "rect",
+      "fillColor": "#F8FAF8",
+      "lineColor": "#CED8E4",
+      "lineWidth": 1
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/il0rqd4v",
+      "id": "22",
+      "bbox": [
+        180,
+        575,
+        8,
+        128
+      ],
+      "geometry": "rect",
+      "fillColor": "#72B86B",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/b6xkf6dc",
+      "id": "23",
+      "bbox": [
+        204,
+        599,
+        260,
+        42
+      ],
+      "geometry": "rect",
+      "text": "96.1%",
+      "textPreview": "96.1%",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 34,
+        "typeface": "Hiragino Sans GB",
+        "color": "#72B86B",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "96.1%"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "96.1%",
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "typeface": "Hiragino Sans GB",
+            "color": "#72B86B",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "96.1%",
+              "fontSize": 34,
+              "typeface": "Hiragino Sans GB",
+              "color": "#72B86B",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0je9cvix",
+      "id": "24",
+      "bbox": [
+        204,
+        649,
+        260,
+        34
+      ],
+      "geometry": "rect",
+      "text": "完整容错 Agent 成功率",
+      "textPreview": "完整容错 Agent 成功率",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Hiragino Sans GB",
+        "color": "#637089",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "完整容错 Agent 成功率"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "完整容错 Agent 成功率",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Hiragino Sans GB",
+            "color": "#637089",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "完整容错 Agent 成功率",
+              "fontSize": 17,
+              "typeface": "Hiragino Sans GB",
+              "color": "#637089"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/t47y1kre",
+      "id": "25",
+      "bbox": [
+        520,
+        575,
+        300,
+        128
+      ],
+      "geometry": "rect",
+      "fillColor": "#F8FAF8",
+      "lineColor": "#CED8E4",
+      "lineWidth": 1
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/idonyd0z",
+      "id": "26",
+      "bbox": [
+        520,
+        575,
+        8,
+        128
+      ],
+      "geometry": "rect",
+      "fillColor": "#37A8B9",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 27,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/byhgn29g",
+      "id": "27",
+      "bbox": [
+        544,
+        599,
+        260,
+        42
+      ],
+      "geometry": "rect",
+      "text": "88.3%",
+      "textPreview": "88.3%",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 34,
+        "typeface": "Hiragino Sans GB",
+        "color": "#37A8B9",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "88.3%"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "88.3%",
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "typeface": "Hiragino Sans GB",
+            "color": "#37A8B9",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "88.3%",
+              "fontSize": 34,
+              "typeface": "Hiragino Sans GB",
+              "color": "#37A8B9",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 28,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0fepkzup",
+      "id": "28",
+      "bbox": [
+        544,
+        649,
+        260,
+        34
+      ],
+      "geometry": "rect",
+      "text": "40% 丢包下成功率",
+      "textPreview": "40% 丢包下成功率",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Hiragino Sans GB",
+        "color": "#637089",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "40% 丢包下成功率"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "40% 丢包下成功率",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Hiragino Sans GB",
+            "color": "#637089",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "40% 丢包下成功率",
+              "fontSize": 17,
+              "typeface": "Hiragino Sans GB",
+              "color": "#637089"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 29,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/p0bi9s36",
+      "id": "29",
+      "bbox": [
+        860,
+        575,
+        300,
+        128
+      ],
+      "geometry": "rect",
+      "fillColor": "#F8FAF8",
+      "lineColor": "#CED8E4",
+      "lineWidth": 1
+    },
+    {
+      "order": 30,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zed8v6ps",
+      "id": "30",
+      "bbox": [
+        860,
+        575,
+        8,
+        128
+      ],
+      "geometry": "rect",
+      "fillColor": "#EF9B3A",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 31,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6xkf6dcb",
+      "id": "31",
+      "bbox": [
+        884,
+        599,
+        260,
+        42
+      ],
+      "geometry": "rect",
+      "text": "644ms",
+      "textPreview": "644ms",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 34,
+        "typeface": "Hiragino Sans GB",
+        "color": "#EF9B3A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "644ms"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "644ms",
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "typeface": "Hiragino Sans GB",
+            "color": "#EF9B3A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "644ms",
+              "fontSize": 34,
+              "typeface": "Hiragino Sans GB",
+              "color": "#EF9B3A",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 32,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hk3q5o7q",
+      "id": "32",
+      "bbox": [
+        884,
+        649,
+        260,
+        34
+      ],
+      "geometry": "rect",
+      "text": "优先级报警等待时间",
+      "textPreview": "优先级报警等待时间",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Hiragino Sans GB",
+        "color": "#637089",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "优先级报警等待时间"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "优先级报警等待时间",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Hiragino Sans GB",
+            "color": "#637089",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "优先级报警等待时间",
+              "fontSize": 17,
+              "typeface": "Hiragino Sans GB",
+              "color": "#637089"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 33,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/oza1gvy9",
+      "id": "33",
+      "bbox": [
+        1200,
+        575,
+        300,
+        128
+      ],
+      "geometry": "rect",
+      "fillColor": "#F8FAF8",
+      "lineColor": "#CED8E4",
+      "lineWidth": 1
+    },
+    {
+      "order": 34,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zqtcj6to",
+      "id": "34",
+      "bbox": [
+        1200,
+        575,
+        8,
+        128
+      ],
+      "geometry": "rect",
+      "fillColor": "#7669D8",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 35,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/65wjudg7",
+      "id": "35",
+      "bbox": [
+        1224,
+        599,
+        260,
+        42
+      ],
+      "geometry": "rect",
+      "text": "真实闭环",
+      "textPreview": "真实闭环",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 34,
+        "typeface": "Hiragino Sans GB",
+        "color": "#7669D8",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "真实闭环"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "真实闭环",
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "typeface": "Hiragino Sans GB",
+            "color": "#7669D8",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "真实闭环",
+              "fontSize": 34,
+              "typeface": "Hiragino Sans GB",
+              "color": "#7669D8",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 36,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hwfyxobm",
+      "id": "36",
+      "bbox": [
+        1224,
+        649,
+        260,
+        34
+      ],
+      "geometry": "rect",
+      "text": "MQTT 事件验证通过",
+      "textPreview": "MQTT 事件验证通过",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Hiragino Sans GB",
+        "color": "#637089",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "MQTT 事件验证通过"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "MQTT 事件验证通过",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Hiragino Sans GB",
+            "color": "#637089",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "MQTT 事件验证通过",
+              "fontSize": 17,
+              "typeface": "Hiragino Sans GB",
+              "color": "#637089"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 37,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/obm58z25",
+      "id": "37",
+      "bbox": [
+        60,
+        815,
+        1480,
+        44
+      ],
+      "geometry": "rect",
+      "fillColor": "#E6EEF2",
+      "lineColor": "#C8D5E2",
+      "lineWidth": 1
+    },
+    {
+      "order": 38,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zupwb2hw",
+      "id": "38",
+      "bbox": [
+        78,
+        825,
+        1444,
+        24
+      ],
+      "geometry": "rect",
+      "text": "当前项目已经具备期末汇报所需的研究问题、系统方案、实验过程、量化结果和真实运行证据。",
+      "textPreview": "当前项目已经具备期末汇报所需的研究问题、系统方案、实验过程、量化结果和真实运行证据。",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Hiragino Sans GB",
+        "color": "#162238",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "当前项目已经具备期末汇报所需的研究问题、系统方案、实验过程、量化结果和真实运行证据。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "当前项目已经具备期末汇报所需的研究问题、系统方案、实验过程、量化结果和真实运行证据。",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Hiragino Sans GB",
+            "color": "#162238",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "当前项目已经具备期末汇报所需的研究问题、系统方案、实验过程、量化结果和真实运行证据。",
+              "fontSize": 17,
+              "typeface": "Hiragino Sans GB",
+              "color": "#162238"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

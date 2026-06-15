@@ -1,0 +1,519 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/61fnqw",
+    "id": "61fnqw",
+    "slide": 13,
+    "layoutId": "b2118fd3-6616-4c19-a8d6-65f41dd74c2c",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "d00ab328-c902-4cd2-8f05-e1e02eb03262",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Hiragino Sans GB"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "b2118fd3-6616-4c19-a8d6-65f41dd74c2c",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "d00ab328-c902-4cd2-8f05-e1e02eb03262",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "d00ab328-c902-4cd2-8f05-e1e02eb03262",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/8v6psfil",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1600,
+        900
+      ],
+      "alt": "paper texture",
+      "contentType": "image/png",
+      "imageFit": "cover",
+      "asset": {
+        "assetId": "3534032e-8a9a-4383-bc53-6f973791b244",
+        "contentType": "image/png",
+        "byteLength": 2435829
+      }
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2hwfyxob",
+      "id": "2",
+      "bbox": [
+        0,
+        0,
+        1600,
+        900
+      ],
+      "geometry": "rect",
+      "fillColor": "rgba(238, 242, 244, 0.86667)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/r2p8nqxs",
+      "id": "3",
+      "bbox": [
+        0,
+        0,
+        1600,
+        92
+      ],
+      "geometry": "rect",
+      "fillColor": "#132033",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gvy90je9",
+      "id": "4",
+      "bbox": [
+        0,
+        92,
+        1600,
+        5
+      ],
+      "geometry": "rect",
+      "fillColor": "#37A8B9",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9gr2p8nq",
+      "id": "5",
+      "bbox": [
+        58,
+        24,
+        500,
+        38
+      ],
+      "geometry": "rect",
+      "text": "期末汇报",
+      "textPreview": "期末汇报",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 20,
+        "typeface": "Hiragino Sans GB",
+        "color": "#AEBBD0",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "期末汇报"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "期末汇报",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Hiragino Sans GB",
+            "color": "#AEBBD0",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "期末汇报",
+              "fontSize": 20,
+              "typeface": "Hiragino Sans GB",
+              "color": "#AEBBD0"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2p8nqxs7",
+      "id": "6",
+      "bbox": [
+        1480,
+        25,
+        70,
+        36
+      ],
+      "geometry": "rect",
+      "text": "13",
+      "textPreview": "13",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 21,
+        "typeface": "Hiragino Sans GB",
+        "color": "#AEBBD0",
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "13"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "13",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Hiragino Sans GB",
+            "color": "#AEBBD0",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "13",
+              "fontSize": 21,
+              "typeface": "Hiragino Sans GB",
+              "color": "#AEBBD0"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ra5gbq1o",
+      "id": "7",
+      "bbox": [
+        58,
+        120,
+        1020,
+        58
+      ],
+      "geometry": "rect",
+      "text": "消融实验：失败重试是成功率提升的主要来源",
+      "textPreview": "消融实验：失败重试是成功率提升的主要来源",
+      "resolvedFontSize": 36,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 36,
+        "typeface": "Hiragino Sans GB",
+        "color": "#162238",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "消融实验：失败重试是成功率提升的主要来源"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "消融实验：失败重试是成功率提升的主要来源",
+          "resolvedTextStyle": {
+            "fontSize": 36,
+            "typeface": "Hiragino Sans GB",
+            "color": "#162238",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "消融实验：失败重试是成功率提升的主要来源",
+              "fontSize": 36,
+              "typeface": "Hiragino Sans GB",
+              "color": "#162238",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kzupwb2h",
+      "id": "8",
+      "bbox": [
+        60,
+        178,
+        1120,
+        36
+      ],
+      "geometry": "rect",
+      "text": "状态过期判断提升报警可靠性，重试机制显著提升整体完成率",
+      "textPreview": "状态过期判断提升报警可靠性，重试机制显著提升整体完成率",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 21,
+        "typeface": "Hiragino Sans GB",
+        "color": "#637089",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "状态过期判断提升报警可靠性，重试机制显著提升整体完成率"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "状态过期判断提升报警可靠性，重试机制显著提升整体完成率",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Hiragino Sans GB",
+            "color": "#637089",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "状态过期判断提升报警可靠性，重试机制显著提升整体完成率",
+              "fontSize": 21,
+              "typeface": "Hiragino Sans GB",
+              "color": "#637089"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9knih4by",
+      "id": "9",
+      "bbox": [
+        130,
+        215,
+        1340,
+        590
+      ],
+      "geometry": "rect",
+      "fillColor": "#F8FAF8",
+      "lineColor": "#CED8E4",
+      "lineWidth": 1
+    },
+    {
+      "order": 10,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/ed8v6psf",
+      "id": "10",
+      "bbox": [
+        140,
+        225,
+        1320,
+        570
+      ],
+      "alt": "ablation chart",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "0978ae55-00ce-42bb-a757-17b58fa0dbb7",
+        "contentType": "image/png",
+        "byteLength": 80796
+      }
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0nuxc3yl",
+      "id": "11",
+      "bbox": [
+        60,
+        815,
+        1480,
+        44
+      ],
+      "geometry": "rect",
+      "fillColor": "#E6EEF2",
+      "lineColor": "#C8D5E2",
+      "lineWidth": 1
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/72x4nap4",
+      "id": "12",
+      "bbox": [
+        78,
+        825,
+        1444,
+        24
+      ],
+      "geometry": "rect",
+      "text": "完整容错 Agent 任务成功率约 96.1%；“优先级+重试”已达约 93.6%，说明 ACK 确认与重试是抵抗丢包/离线的关键机制。",
+      "textPreview": "完整容错 Agent 任务成功率约 96.1%；“优先级+重试”已达约 93.6%，说明 ACK 确认与重试是抵抗丢包/离线的关键机制。",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Hiragino Sans GB",
+        "color": "#162238",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "完整容错 Agent 任务成功率约 96.1%；“优先级+重试”已达约 93.6%，说明 ACK 确认与重试是抵抗丢包/离线的关键机制。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "完整容错 Agent 任务成功率约 96.1%；“优先级+重试”已达约 93.6%，说明 ACK 确认与重试是抵抗丢包/离线的关键机制。",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Hiragino Sans GB",
+            "color": "#162238",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "完整容错 Agent 任务成功率约 96.1%；“优先级+重试”已达约 93.6%，说明 ACK 确认与重试是抵抗丢包/离线的关键机制。",
+              "fontSize": 17,
+              "typeface": "Hiragino Sans GB",
+              "color": "#162238"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

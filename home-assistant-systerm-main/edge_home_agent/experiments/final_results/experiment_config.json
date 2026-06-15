@@ -1,0 +1,20 @@
+{
+  "horizon_s": 260,
+  "base_repetitions": 8,
+  "total_runs": 198,
+  "total_tasks": 6134,
+  "experiments": [
+    "latency_response",
+    "drop_success",
+    "mode_comparison",
+    "alarm_reliability",
+    "ablation"
+  ],
+  "agent_modes": {
+    "fifo_rule": "普通规则",
+    "priority": "优先级调度",
+    "priority_stale": "优先级+过期",
+    "priority_retry": "优先级+重试",
+    "fault_tolerant": "容错 Agent"
+  }
+}

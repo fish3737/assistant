@@ -1,0 +1,10 @@
+{
+  "broker": "127.0.0.1:1883",
+  "real_mqtt_validation": true,
+  "saw_alarm_dispatch": true,
+  "saw_alarm_state_on": true,
+  "saw_light_dispatch": true,
+  "saw_light_state_on": true,
+  "event_count": 25,
+  "generated_at": "2026-06-13T14:32:24.614626+00:00"
+}

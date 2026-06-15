@@ -1,0 +1,26 @@
+t,source,event,topic,detail
+0.001,device,state_published,home/devices/state,"light=off, reason=validation-boot"
+0.0011,device,state_published,home/devices/state,"ac=on, reason=validation-boot"
+0.0011,device,state_published,home/devices/state,"alarm=off, reason=validation-boot"
+2.0101,sensor,sensor_published,home/sensors/temperature,temperature=24.5
+2.1655,sensor,sensor_published,home/sensors/light,light=350
+2.321,sensor,sensor_published,home/sensors/door,door=False
+2.4718,sensor,sensor_published,home/sensors/pir,pir=True
+3.6298,sensor,sensor_published,home/sensors/light,light=20
+3.836,sensor,sensor_published,home/sensors/pir,pir=False
+4.0385,sensor,sensor_published,home/sensors/door,door=True
+4.0855,device,command_received,home/commands/alarm,"alarm=on, reason=night-door-anomaly, priority=1"
+4.0857,device,state_published,home/devices/state,"alarm=on, reason=night-door-anomaly"
+4.0859,agent,dispatch,home/agent/events,"alarm=on, reason=night-door-anomaly, p=1"
+4.0869,mqtt,device_state_observed,home/devices/state,"alarm=on, reason=night-door-anomaly"
+4.2426,sensor,sensor_published,home/sensors/temperature,temperature=25.0
+4.8908,device,command_received,home/commands/light,"light=on, reason=door-open-dark, priority=2"
+4.891,device,state_published,home/devices/state,"light=on, reason=door-open-dark"
+4.8912,agent,dispatch,home/agent/events,"light=on, reason=door-open-dark, p=2"
+4.8918,mqtt,device_state_observed,home/devices/state,"light=on, reason=door-open-dark"
+5.0565,sensor,sensor_published,home/sensors/door,door=False
+5.2619,sensor,sensor_published,home/sensors/pir,pir=True
+5.6919,device,command_received,home/commands/alarm,"alarm=off, reason=occupancy-confirmed, priority=2"
+5.6921,agent,dispatch,home/agent/events,"alarm=off, reason=occupancy-confirmed, p=2"
+5.6922,device,state_published,home/devices/state,"alarm=off, reason=occupancy-confirmed"
+5.6933,mqtt,device_state_observed,home/devices/state,"alarm=off, reason=occupancy-confirmed"

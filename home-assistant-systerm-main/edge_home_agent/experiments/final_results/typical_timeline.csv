@@ -1,0 +1,5 @@
+event,at_s,delta_ms,detail
+触发并入队,181.2719,0.0,"door=open, pir=false, p=0"
+首次派发命令,182.0,728.1,queue_wait=728.1ms
+超时重试,183.6136,2341.65,attempts=2
+设备 ACK 确认,185.2271,3955.2,response=3955.19ms

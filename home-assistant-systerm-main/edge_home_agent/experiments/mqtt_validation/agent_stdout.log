@@ -1,0 +1,22 @@
+2026-06-13 22:32:14,936 | INFO | agent  | Edge agent started (cmd_drop=0.00, cmd_delay_ms=0).
+2026-06-13 22:32:14,940 | INFO | agent  | Connected to MQTT broker.
+2026-06-13 22:32:16,886 | INFO | agent  | Sensor update: temperature=24.5
+2026-06-13 22:32:17,041 | INFO | agent  | Sensor update: light=350
+2026-06-13 22:32:17,196 | INFO | agent  | Sensor update: door=False
+2026-06-13 22:32:17,347 | INFO | agent  | Sensor update: pir=True
+2026-06-13 22:32:18,505 | INFO | agent  | Sensor update: light=20
+2026-06-13 22:32:18,714 | INFO | agent  | Sensor update: pir=False
+2026-06-13 22:32:18,914 | INFO | agent  | Sensor update: door=True
+2026-06-13 22:32:18,915 | INFO | agent  | Task enqueued p=2 device=light cmd=on
+2026-06-13 22:32:18,915 | INFO | agent  | Task enqueued p=1 device=alarm cmd=on
+2026-06-13 22:32:18,958 | INFO | agent  | Dispatched command p=1 alarm=on (night-door-anomaly)
+2026-06-13 22:32:18,961 | INFO | agent  | Device state sync: alarm=on
+2026-06-13 22:32:19,118 | INFO | agent  | Sensor update: temperature=25.0
+2026-06-13 22:32:19,764 | INFO | agent  | Dispatched command p=2 light=on (door-open-dark)
+2026-06-13 22:32:19,766 | INFO | agent  | Device state sync: light=on
+2026-06-13 22:32:19,931 | INFO | agent  | Sensor update: door=False
+2026-06-13 22:32:20,138 | INFO | agent  | Sensor update: pir=True
+2026-06-13 22:32:20,138 | INFO | agent  | Task enqueued p=2 device=alarm cmd=off
+2026-06-13 22:32:20,565 | INFO | agent  | Dispatched command p=2 alarm=off (occupancy-confirmed)
+2026-06-13 22:32:20,567 | INFO | agent  | Device state sync: alarm=off
+2026-06-13 22:32:23,577 | INFO | agent  | Edge agent stopped.

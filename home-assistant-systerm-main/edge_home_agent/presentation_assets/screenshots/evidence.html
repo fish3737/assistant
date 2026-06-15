@@ -1,0 +1,58 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+    body{margin:0;background:#eef2f6;color:#1d2b45;font-family:-apple-system,BlinkMacSystemFont,'Hiragino Sans GB','PingFang SC',Arial,sans-serif;}
+    .page{width:1360px;min-height:820px;padding:44px 56px;box-sizing:border-box;}
+    h1{font-size:34px;margin:0 0 10px;color:#142033;font-weight:650;letter-spacing:0;}
+    .sub{font-size:18px;color:#60708a;margin-bottom:26px;}
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:22px;}
+    .panel{background:#111b2c;border:1px solid #2c3a54;border-radius:18px;padding:22px;box-shadow:0 12px 34px rgba(24,35,55,.10);}
+    .panel h2{font-size:21px;color:#8de5ff;margin:0 0 16px;font-weight:500;}
+    pre{white-space:pre-wrap;word-break:break-word;color:#dbe6f7;font-size:14px;line-height:1.52;margin:0;font-family:'SF Mono','Menlo','Consolas',monospace;}
+    .wide{grid-column:1 / span 2;}
+  </style></head><body><div class="page">
+    <h1>实验运行证据截图</h1><div class="sub">Docker 服务、真实 MQTT 验证事件与实验结果文件来自当前项目目录</div>
+    <div class="grid">
+      <section class="panel"><h2>Docker 服务状态</h2><pre>NAME             IMAGE                                          COMMAND                  SERVICE          CREATED          STATUS          PORTS
+edge-home-ha     ghcr.io/home-assistant/home-assistant:stable   "/init"                  home-assistant   32 minutes ago   Up 32 minutes   0.0.0.0:8123-&gt;8123/tcp, [::]:8123-&gt;8123/tcp
+edge-home-mqtt   eclipse-mosquitto:2                            "/docker-entrypoint.…"   mqtt-broker      32 minutes ago   Up 27 minutes   0.0.0.0:1883-&gt;1883/tcp, [::]:1883-&gt;1883/tcp
+</pre></section>
+      <section class="panel"><h2>结果文件</h2><pre>experiments/final_results/alarm_opportunities.csv
+experiments/final_results/charts/01_avg_response_by_latency.png
+experiments/final_results/charts/02_success_rate_by_drop.png
+experiments/final_results/charts/03_agent_mode_comparison.png
+experiments/final_results/charts/04_alarm_completion_rate.png
+experiments/final_results/charts/05_queue_wait_distribution.png
+experiments/final_results/charts/06_ablation_study.png
+experiments/final_results/charts/07_typical_event_timeline.png
+experiments/final_results/experiment_config.json
+experiments/final_results/stale_state_events.csv
+experiments/final_results/summary.csv
+experiments/final_results/tasks.csv
+experiments/final_results/typical_timeline.csv</pre></section>
+      <section class="panel wide"><h2>真实 MQTT 验证事件片段</h2><pre>t,source,event,topic,detail
+0.001,device,state_published,home/devices/state,"light=off, reason=validation-boot"
+0.0011,device,state_published,home/devices/state,"ac=on, reason=validation-boot"
+0.0011,device,state_published,home/devices/state,"alarm=off, reason=validation-boot"
+2.0101,sensor,sensor_published,home/sensors/temperature,temperature=24.5
+2.1655,sensor,sensor_published,home/sensors/light,light=350
+2.321,sensor,sensor_published,home/sensors/door,door=False
+2.4718,sensor,sensor_published,home/sensors/pir,pir=True
+3.6298,sensor,sensor_published,home/sensors/light,light=20
+3.836,sensor,sensor_published,home/sensors/pir,pir=False
+4.0385,sensor,sensor_published,home/sensors/door,door=True
+4.0855,device,command_received,home/commands/alarm,"alarm=on, reason=night-door-anomaly, priority=1"
+4.0857,device,state_published,home/devices/state,"alarm=on, reason=night-door-anomaly"
+4.0859,agent,dispatch,home/agent/events,"alarm=on, reason=night-door-anomaly, p=1"
+4.0869,mqtt,device_state_observed,home/devices/state,"alarm=on, reason=night-door-anomaly"
+4.2426,sensor,sensor_published,home/sensors/temperature,temperature=25.0
+4.8908,device,command_received,home/commands/light,"light=on, reason=door-open-dark, priority=2"
+4.891,device,state_published,home/devices/state,"light=on, reason=door-open-dark"</pre></section>
+      <section class="panel wide"><h2>实验 summary.csv 片段</h2><pre>experiment,mode,mode_label,latency_ms,drop_rate,offline_rate,total_tasks,successful_tasks,success_rate,avg_response_ms,median_response_ms,avg_queue_wait_ms,p95_queue_wait_ms,alarm_opportunities,alarm_success,alarm_completion_rate,alarm_miss_rate,alarm_avg_queue_wait_ms,alarm_avg_response_ms,avg_attempts,stale_skips
+ablation,fault_tolerant,容错 Agent,350,0.2,0.1,279,268,0.9606,2645.69,1474.68,951.38,1880.01,60,55,0.9167,0.0833,809.55,2482.13,1.49,277
+ablation,fifo_rule,普通规则,350,0.2,0.1,358,238,0.6648,1175.47,1213.19,749.84,1794.51,60,43,0.7167,0.2833,1074.85,1501.45,1,0
+ablation,priority,优先级调度,350,0.2,0.1,373,232,0.622,1119.68,1142.62,711.8,1883.12,60,42,0.7,0.3,589.79,967.68,1,0
+ablation,priority_retry,优先级+重试,350,0.2,0.1,280,262,0.9357,2502.94,1432.01,928.63,1883.31,60,52,0.8667,0.1333,798.92,2573.01,1.49,0
+ablation,priority_stale,优先级+过期,350,0.2,0.1,392,248,0.6327,1128.81,1144.71,700.76,1861.91,60,52,0.8667,0.1333,673.71,1087.74,1,239
+alarm_reliability,fault_tolerant,容错 Agent,350,0.2,0.1,270,264,0.9778,2569.97,1411.05,942.53,1881.21,60,50,0.8333,0.1667,803.41,2789.84,1.43,181
+alarm_reliability,fifo_rule,普通规则,350,0.2,0.1,355,236,0.6648,1125.55,1174.09,735.07,1844.08,60,49,0.8167,0.1833,1130.92,1550.27,1,0</pre></section>
+    </div>
+  </div></body></html>

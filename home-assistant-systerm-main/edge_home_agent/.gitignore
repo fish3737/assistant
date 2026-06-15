@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+homeassistant/.HA_VERSION
+homeassistant/.ha_run.lock
+homeassistant/.storage/
+homeassistant/blueprints/
+homeassistant/home-assistant.log*
+homeassistant/home-assistant_v2.db*
